@@ -1,0 +1,40 @@
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+
+  &__item {
+    float: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+
+    &--selected {
+      float: left;
+      padding: 10px 20px;
+      cursor: pointer;
+      text-align: center;
+      border-radius: 3px;
+      background: #333333;
+      color: #ffffff;
+    }
+
+    &:hover {
+      background: #333333;
+      color: #ffffff;
+    }
+
+    &__search {
+      text-decoration: none;
+      color: #000000;
+
+      &:hover {
+        background: #333333;
+        color: #ffffff;
+      }
+    }
+  }
+}

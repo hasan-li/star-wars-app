@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    position: relative;
+    border-radius: 5px;
+    width: 85%;
+    padding: 20px 15px;
+    background: #ffffff;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #000000;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06);
+
+    &__name {
+      margin: 0;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background: #000000;
+      color: #ffffff;
+    }
+  }
+
+
+  &__btn {
+    &--neutral {
+      font-size: 1.0em;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      border-radius: 19px;
+      padding: 12px 35px;
+      margin: 40px;
+      font-weight: bold;
+      background: #7736f3;
+      box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06);
+  
+      &:hover {
+        background: #000000;
+        color: #7736f3;
+        cursor: pointer;
+      }
+    }
+  }
+  
+}

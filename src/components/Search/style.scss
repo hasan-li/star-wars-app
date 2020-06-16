@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  &__block {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    &__input {
+      border: 1px solid #cccccc;
+      outline: none;
+      padding: 15px;
+      border-right: none;
+      border-radius: 5px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  
+    &__btn {
+      border-radius: 5px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border: 1px solid #cccccc;
+      outline: none;
+      border-left: none;
+      padding: 15px;
+    }
+  }
+}

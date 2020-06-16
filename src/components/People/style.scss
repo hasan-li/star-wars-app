@@ -1,0 +1,30 @@
+.details {
+  background: #ffffff;
+  width: 85%;
+  margin: 20px auto;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  &__block {
+    border: 1px solid #eeeeee;
+    margin: 10px 15px;
+    border-radius: 7px;
+    padding: 10px;
+
+    &__label {
+      font-size: calc(10px + 0.9vmin);
+      display: inline-block;
+      text-align: left;
+      font-weight: bold;
+      padding: 0 10px;
+    }
+    &__value {
+      display: inline-block;
+    }
+  }
+}
